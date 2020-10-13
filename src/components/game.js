@@ -11,8 +11,7 @@ class Game extends React.Component {
       history : {
         squares : Array(9).fill(null)
       },
-      step : 0,
-      xIsNext : true
+      step : 0
     }
   }
  
