@@ -16,6 +16,11 @@ class Game extends React.Component {
     }
   }
  
+  handleClick(i){
+    history = this.state.history
+    current = history[history.length-1] //latest state array
+    squares = current.squares // latest state of the board
+  }
 
   render() {
     
