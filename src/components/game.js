@@ -21,7 +21,7 @@ class Game extends React.Component {
   }
 
   render() {
-    
+    // todo pass this.state.squares to board
     return(
       <div className="game">
         <div className="game-board">
